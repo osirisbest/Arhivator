@@ -73,7 +73,7 @@ public class Script
 			} else {
 				fileini.createNewFile();
 				p.put("PathBackLoc", "D:\\backups\\data");
-				p.put("PathBackRemout", "\\\\fps.idc.fitofarm.ua\\backupdatabase$\\S1C\\PostgreSQL\\");
+				p.put("PathBackRemout", "\\\\__\\");
 				p.put("PathScripts", "D:\\backups\\scripts\\");
 				p.store(new FileOutputStream(fileini), "ini for Arhivator " + new Date().toString());
 				print("Создан файл настроек, его необходимо заполнить своими настройками! Файл находится:" + fileini.getCanonicalPath());
